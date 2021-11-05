@@ -1,0 +1,46 @@
+{
+  "en": {
+    "management": {
+      "posts": {
+        "fields": {
+          "_id": "ID",
+          "isDeleted": "isDeleted",
+          "isDeleted_description": "This field is used to identify if this object has been soft-deleted",
+          "createdAt": "Created At",
+          "createdAt_description": "Represents the date when this object was created",
+          "updatedAt": "Updated At",
+          "updatedAt_description": "Represents the last time when the object was updated",
+          "title": "Title",
+          "body": "Body",
+          "createdById": "Created By Id",
+          "createdById_description": "Represents the user's id who has created this object",
+          "updatedById": "Updated By Id",
+          "updatedById_description": "Represents the user's id who has made the latest update on this object",
+          "createdBy": "Created By",
+          "createdBy_description": "Represents the user who has created this object",
+          "updatedBy": "Updated By",
+          "updatedBy_description": "Represents the user who has made the latest update on this object"
+        },
+        "menu": {
+          "title": "Posts"
+        },
+        "list": {
+          "header": "Posts List",
+          "create_btn": "New Post"
+        },
+        "create": {
+          "header": "Create Post"
+        },
+        "edit": {
+          "header": "Edit Post"
+        },
+        "view": {
+          "header": "View Post"
+        },
+        "delete_confirmation": "You have deleted the Post",
+        "create_confirmation": "You successfully added a new Post",
+        "edit_confirmation": "You successfully edited the Post"
+      }
+    }
+  }
+}
